@@ -373,7 +373,7 @@ C     EVALUATE ACTIVE STRESS IN EACH FIBRE
         ETA_SF_THETA_I = STATEV(I)
         SIGMA_ACTIVE_THETA(I) = ETA_SF_THETA_I*SIG_MAX*( 1.0D0 + 
      1                          (K_T*EPSDOT_THETA(I)/
-     2           SQRT(1.0D0 + EPSDOT_THETA(I)*EPSDOT_THETA(I))) )
+     2           SQRT(1.0D0 + K_T*K_T*EPSDOT_THETA(I)*EPSDOT_THETA(I))))
 
       END DO
 
