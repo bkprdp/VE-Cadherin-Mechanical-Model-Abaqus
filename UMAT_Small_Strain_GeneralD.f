@@ -1,13 +1,12 @@
-c The ABAQUS UMAT subroutine that describes the cell as a strain-rate dependent material.
-c A version of this code is primarily used to study endothelial permeability as described in the article
-c "A mechanical modelling framework to study endothelial permeability", Biophysical Journal, 2024. 
+The ABAQUS UMAT subroutine that describes the cell as a strain-rate dependent material.
+c A version of this code is primarliy used to study endothelial permeability as described in the article
+c "P.Keshavanarayana, F.Spill, A mechanical modelling framework to study endothelial permeability, Biophysical Journal, 2024." 
 
 c If you spot any bug in the code, please let the authors know. It will help in further development. 
 c Authors : Pradeep Keshavanarayana, Fabian Spill
 c Contact : p.keshavanarayana@bham.ac.uk, f.spill@bham.ac.uk
 c 
-c The code is distributed as CC BY license. 
-c However, please cite the above article if you are using this code. 
+c The code is distributed with CC BY license. Please cite the above article if you are using this code. 
 c
 c      
       SUBROUTINE UMAT(STRESS,STATEV,DDSDDE,SSE,SPD,SCD,
@@ -244,7 +243,7 @@ C     DEFINITION OF ACTIVE STRESS EVALUATION SUBROUTINE
       REAL(KIND=8) ETA_SF_THETA(N_FIBRES),SIGMA_ACTIVE_THETA(N_FIBRES)
       REAL(KIND=8) EPSDOT_VEC(NTENS),DSTRAN(NTENS)
       REAL(KIND=8) PI
-      INTEGER N_FIBRES,I,J,N_FIBRES_EFF
+      INTEGER N_FIBRES,I,J,N_FIBRES_EFF, COUNT_FIBRE
 
       PI=4.D0*ATAN(1.D0)
 
