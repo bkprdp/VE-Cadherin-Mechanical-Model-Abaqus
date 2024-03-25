@@ -6,7 +6,7 @@ c If you spot any bug in the code, please let the authors know. It will help in 
 c Authors : Pradeep Keshavanarayana, Fabian Spill
 c Contact : p.keshavanarayana@bham.ac.uk, f.spill@bham.ac.uk
 c 
-c The code is distributed as    which allows 
+c The code is distributed as CC BY license. 
 c However, please cite the above article if you are using this code. 
 c
 c      
