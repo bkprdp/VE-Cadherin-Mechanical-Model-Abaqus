@@ -4,3 +4,4 @@ This branch contains the latest UMAT file defining the cell contractility model 
 
 This branch also contains an Abaqus inp file that requires UMAT file as input. 
 
+For older versions and additional inp files, please refer to other branches in this repository. 
