@@ -1,5 +1,5 @@
 c The ABAQUS UMAT subroutine that describes the cell as a strain-rate dependent material.
-c The code is primarliy used to study endothelial permeability as described in the article
+c A version of this code is primarily used to study endothelial permeability as described in the article
 c "A mechanical modelling framework to study endothelial permeability", Biophysical Journal, 2024. 
 
 c If you spot any bug in the code, please let the authors know. It will help in further development. 
