@@ -484,4 +484,5 @@ C     EVALUATE ACTIVE STRESS IN EACH FIBRE
       END SUBROUTINE EVAL_ACTIVE_STRESS_THETA
 
 c     INCLUDE AMPLITUDE SUBROUTINE
+c     Uncomment the below line to include random loading 
 c      INCLUDE "UAMP.f"
